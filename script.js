@@ -9,7 +9,7 @@ window.addEventListener('load', function() {
     */
     const canvas = document.getElementById('canvas');
     const ctx = canvas.getContext('2d');
-    canvas.width = 800;
+    canvas.width = 1000;
     canvas.height = 500 ;
     let lastTime = 0;
 
@@ -19,8 +19,9 @@ window.addEventListener('load', function() {
         const deltaTime = timeStamp -  lastTime;
         lastTime = timeStamp;
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-        game.update(deltaTime);
         game.draw(ctx);
+        game.update(deltaTime);
+       
         requestAnimationFrame(animate);
     }
 

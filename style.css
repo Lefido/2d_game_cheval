@@ -18,8 +18,9 @@ canvas {
 
 #layer1, #layer2, #layer3, #layer4,
 #player,
-#angler1, #angler2, #lucky,
-#projectile, #gears {
+#angler1, #angler2, #lucky, #hivewhale, #drone,
+#projectile, #gears,
+#smokeexplosion, #fireexplosion {
   display: none;
 }
 
