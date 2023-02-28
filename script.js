@@ -1,7 +1,6 @@
 
 import { Game } from "./js/Game.js";
 
-
 window.addEventListener('load', function() {
 
     /**

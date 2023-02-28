@@ -38,9 +38,6 @@ export class SmokeExplosion extends Explosion {
     constructor(game, x, y) {
         super(game, x, y)
         this.image = document.getElementById('smokeexplosion');
-       
-       
-
     }
 }
 
@@ -48,7 +45,5 @@ export class FireExplosion extends Explosion {
     constructor(game, x, y) {
         super(game, x, y)
         this.image = document.getElementById('fireexplosion');
-          
     }
-
 }
