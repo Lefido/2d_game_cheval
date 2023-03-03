@@ -2,7 +2,7 @@
 import { Player } from "./Player.js";
 import { Angler1, Angler2, LuckyFish, HiveWhale, Drone} from "./Enemy.js";
 import { InputHandler } from "./InputHandler.js";
-import { Ui } from "../Ui.js";
+import { Ui } from "./Ui.js";
 import { Background } from "./Backgroud.js";
 import { Particule } from "./Particule.js";
 import { FireExplosion, SmokeExplosion } from "./Explosion.js";
